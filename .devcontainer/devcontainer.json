@@ -1,0 +1,14 @@
+{
+    "build": {
+      "context": "..",
+      "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "scripts/setup",
+    "features": {},
+    "forwardPorts": [8888],
+    "mounts": [],
+    "remoteEnv": {
+      "MISE_TRUSTED_CONFIG_PATHS": "/workspaces/python-devops",
+      "DEVCONTAINER": "1"
+    }
+  }

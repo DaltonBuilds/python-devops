@@ -1,0 +1,17 @@
+[tools]
+starship = "latest"
+uv = "latest"
+python = "3.13.11"
+"pipx:commitizen-tools/commitizen" = "latest"
+"pipx:pre-commit/pre-commit" = "latest"
+vim = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = ["python"]
+experimental = true
+
+[settings.python]
+uv_venv_auto = "create|source"
+
+[env]
+APP_REPO = 'python-devops'
